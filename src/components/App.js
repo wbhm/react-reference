@@ -4,7 +4,7 @@ import { NavLink, Switch, Route } from "react-router-dom";
 import AboutPage from "./about/AboutPage";
 import HomePage from "./home/HomePage";
 import CoursesPage from "./course/CoursesPage";
-import ManageCoursePage from "./course/ManageCoursePage"; //es-lint-disable-line import/no-named-as-default
+import ManageCoursePage from "./course/ManageCoursePage"; //eslint-disable-line import/no-named-as-default
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 

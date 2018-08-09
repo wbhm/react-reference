@@ -29,7 +29,7 @@ describe('Testing Course Reducer', () => {
         const initialState = [
             { id: 'A', title: 'A' },
             { id: 'B', title: 'B' },
-            { id: 'C', title: 'C' },
+            { id: 'C', title: 'C' }
         ];
 
         const newtitle = 'New Title';

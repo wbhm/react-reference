@@ -10,7 +10,7 @@ describe('Testing App Store', () => {
         const store = createStore(rootReducer, initialState);
         const course = {
             title: 'TEST COURSE'
-        }
+        };
 
         //act
         const action = courseActions.createCourseSuccess(course);
@@ -21,5 +21,5 @@ describe('Testing App Store', () => {
         //expect(actual.length).toEqual(1);
         expect(actual).toEqual(course);
 
-    })
+    });
 }); 
