@@ -9,9 +9,9 @@ const Header = ({ loading }) => (
     <nav>
         <NavLink to="/" activeStyle={activeStyle}>Home</NavLink>
         {" | "}
-        <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>
-        {" | "}
         <NavLink to="/courses" activeStyle={activeStyle}>Courses</NavLink>
+        {" | "}
+        <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>
         {loading && <LoadingDots interval={100} dots={20} />}
     </nav>
 );
